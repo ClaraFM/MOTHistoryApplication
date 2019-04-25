@@ -40,13 +40,13 @@ namespace MOTHistoryApp
             {
                 Console.WriteLine("Enter a registration number: ");
 
-                var regnum = Console.ReadLine();
+                var regNumber = Console.ReadLine();
 
                 var motService = provider.GetService<IMOTService>();
 
-                var vehicle = motService.Find(regnum);
+                var vehicle = motService.Find(regNumber);
 
-                Console.WriteLine(vehicle?.ToString() ?? $"The vehicle with the registration: {regnum} was not found.");
+                Console.WriteLine(vehicle?.ToString() ?? $"The vehicle with the registration: {regNumber} was not found.");
                 Console.WriteLine();
             }
         }
