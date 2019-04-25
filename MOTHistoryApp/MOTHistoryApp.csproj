@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MOTHistory.Contracts\MOTHistory.Contracts.csproj" />
+    <ProjectReference Include="..\MOTHistory.Repository\MOTHistory.Repository.csproj" />
+    <ProjectReference Include="..\MOTHistory.Services\MOTHistory.Services.csproj" />
+  </ItemGroup>
+
+</Project>

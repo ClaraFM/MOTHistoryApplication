@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOTHistoryApp", "MOTHistoryApp\MOTHistoryApp.csproj", "{239B0315-80F3-4537-91D8-5017E16C47E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOTHistory.Repository", "MOTHistory.Repository\MOTHistory.Repository.csproj", "{53559161-54FF-48D4-BB7E-F7C681E24471}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOTHistory.Models", "MOTHistory.Models\MOTHistory.Models.csproj", "{AA3EF83F-F965-4F36-BE66-4D65097500E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOTHistory.Contracts", "MOTHistory.Contracts\MOTHistory.Contracts.csproj", "{715B1C3C-98D3-4739-B9D4-4C61DE2E25B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOTHistory.Services", "MOTHistory.Services\MOTHistory.Services.csproj", "{CC076E17-6006-4962-9FB6-720C7CB645FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239B0315-80F3-4537-91D8-5017E16C47E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239B0315-80F3-4537-91D8-5017E16C47E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239B0315-80F3-4537-91D8-5017E16C47E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239B0315-80F3-4537-91D8-5017E16C47E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53559161-54FF-48D4-BB7E-F7C681E24471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53559161-54FF-48D4-BB7E-F7C681E24471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53559161-54FF-48D4-BB7E-F7C681E24471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53559161-54FF-48D4-BB7E-F7C681E24471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3EF83F-F965-4F36-BE66-4D65097500E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3EF83F-F965-4F36-BE66-4D65097500E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3EF83F-F965-4F36-BE66-4D65097500E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3EF83F-F965-4F36-BE66-4D65097500E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715B1C3C-98D3-4739-B9D4-4C61DE2E25B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715B1C3C-98D3-4739-B9D4-4C61DE2E25B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715B1C3C-98D3-4739-B9D4-4C61DE2E25B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715B1C3C-98D3-4739-B9D4-4C61DE2E25B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC076E17-6006-4962-9FB6-720C7CB645FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC076E17-6006-4962-9FB6-720C7CB645FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC076E17-6006-4962-9FB6-720C7CB645FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC076E17-6006-4962-9FB6-720C7CB645FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89C70BCA-9FEE-497C-8404-A14464817461}
+	EndGlobalSection
+EndGlobal
