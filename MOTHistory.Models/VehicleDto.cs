@@ -17,7 +17,7 @@ namespace MOTHistory.Models
         public override string ToString()
         {
             var currentTest = this.MotTests?.OrderByDescending(t => t.CompletedDate).FirstOrDefault();
-            var motdetails = currentTest?.ToString() ?? $"No MOT data found.";
+            var motDetails = currentTest?.ToString() ?? $"No MOT data found.";
             return
                 "\nVehicle Details \n" +
                 "Registration: " + this.Registration + "\n" +
@@ -25,7 +25,7 @@ namespace MOTHistory.Models
                 "Model: " + this.Model + "\n" +
                 "Colour: " + this.PrimaryColour + "\n" +
                 "\nCurrent MOT Details \n" +
-                motdetails;
+                motDetails;
         }
     }
 }
